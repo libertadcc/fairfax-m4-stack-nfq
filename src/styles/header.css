@@ -1,0 +1,47 @@
+.wrapper {
+  padding-top: 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+
+.dragDrop {
+  cursor: grabbing;
+}
+
+.icon {
+  width: 60 !important
+}
+
+.titleLegend {
+  font-weight: 700;
+  flex-grow: 2;
+  max-width: 500px;
+  font-size: 14px;
+  color: #5F676F;
+  padding-left: 5px;
+  width: 230px;
+}
+
+.iconList {
+  list-style: none;
+  display: flex;
+  cursor: pointer;
+}
+
+.iconList span {
+  padding: 5px;
+}
+
+.arrowUp {
+  transform: rotate(180deg);
+}
+
+@media (min-width: 600px) {
+  .titleLegend {
+    width: 400px;
+  }
+}

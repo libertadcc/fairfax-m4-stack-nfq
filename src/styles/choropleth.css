@@ -1,0 +1,36 @@
+.listChoropleth {
+  list-style: none;
+  color: #606060;
+  font-size: 12px;
+  display: flex;
+  padding-left: 0;
+  justify-content: center;
+  /* width: inherit; */
+}
+
+.elementChoropleth {
+  display: flex;
+  align-items: center;
+}
+
+
+.rectangle {
+  width: 25px;
+  height: 7px;
+}
+
+.labelsChoropleth {
+  width: 25px;
+  height: 7px;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .rectangle {
+    width: 55px;
+  }
+  .labelsChoropleth {
+    width: 55px;
+  }
+}
+

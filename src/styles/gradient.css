@@ -1,0 +1,50 @@
+.gradientWrapper {
+  display: flex;
+  justify-content: center;
+  width: 320px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.gradientContainer {
+  width: 490px;
+  height: 7px;
+  margin: auto;
+  text-align: center;
+}
+
+.listGradient {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0px;
+  color: #606060;
+  font-size: 12px;
+  margin: 0;
+}
+
+.labels {
+  width: 55px;
+  height: 7px;
+  text-align: center;
+}
+
+.extraInfo {
+  width: 320px;
+  margin: 30px;
+  margin-bottom: 0;
+}
+
+@media (min-width: 600px) {
+  .gradientWrapper {
+    width: 490px;
+  }
+  .listGradient {
+    margin: 0 20px;
+  }
+  .extraInfo {
+    width: 490px;
+  }
+  
+}
